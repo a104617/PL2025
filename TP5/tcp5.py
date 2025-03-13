@@ -163,7 +163,7 @@ class MaquinaVending:
             adicionar_produto(self.stock, cod, nome, quant, preco)
             print("maq: Produto adicionado com sucesso.")
         except ValueError:
-            print("maq: Entrada inválida. Certifique-se de que a quantidade é um número inteiro e o preço é um número decimal.")
+            print("maq: Entrada inválida.")
 
 def carregar_stock():
     try:
